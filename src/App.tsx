@@ -83,17 +83,18 @@ function App() {
         <div className="h-px bg-gradient-to-r from-it-red via-it-blue to-it-red shadow-[0_0_10px_rgba(199,0,57,0.5)]"></div>
       </div>
 
-      <div id="about" className="w-full bg-gradient-to-b from-it-silver/20 to-white py-20 px-6">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-it-dark mb-12 tracking-tight uppercase">
+      <div id="about" className="w-full bg-cover bg-center bg-no-repeat py-20 px-6 relative" style={{backgroundImage: 'url(/src/img/about-bg.jpg)'}}>
+        <div className="absolute inset-0 bg-[#E0E0E0]/30"></div>
+        <div className="max-w-5xl mx-auto text-center relative z-10">
+          <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-12 tracking-tight uppercase">
             WHO WE ARE
           </h2>
 
-          <p className="font-montserrat text-gray-800 text-lg md:text-xl leading-relaxed mb-6 max-w-3xl mx-auto font-medium">
+          <p className="font-montserrat text-[#1A1A1A] text-lg md:text-xl mb-6 max-w-3xl mx-auto">
             Our mission is to protect, maintain, and enhance your technology infrastructure so you can focus on what truly matters — your business growth.
           </p>
 
-          <p className="font-montserrat text-gray-700 text-base md:text-lg leading-relaxed max-w-3xl mx-auto font-medium">
+          <p className="font-montserrat text-[#2A2A2A] text-base md:text-lg max-w-3xl mx-auto">
             We deliver innovative, reliable, and efficient IT support for businesses of all sizes.
           </p>
         </div>
