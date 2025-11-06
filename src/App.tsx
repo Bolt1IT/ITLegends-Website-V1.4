@@ -84,21 +84,21 @@ function App() {
       </div>
 
       <div id="about" className="w-full bg-cover bg-center bg-no-repeat py-20 px-6 relative section-fade" style={{backgroundImage: 'url(/src/img/about-bg.jpg)'}}>
-        <div className="absolute inset-0 bg-[#E0E0E0]/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A]/60 via-[#0A0A0A]/60 to-[#0A0A0A]/50"></div>
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-it-blue/8 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-it-red/8 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-it-blue/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-it-red/10 rounded-full blur-3xl"></div>
         </div>
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-[#0A0A0A] mb-12 tracking-tight uppercase drop-shadow-[0_2px_4px_rgba(255,255,255,0.3)]">
+          <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-white mb-12 tracking-tight uppercase drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]">
             WHO WE ARE
           </h2>
 
-          <p className="font-montserrat text-[#0A0A0A] text-lg md:text-xl mb-6 max-w-3xl mx-auto drop-shadow-[0_1px_2px_rgba(255,255,255,0.2)]">
+          <p className="font-montserrat text-white text-lg md:text-xl mb-6 max-w-3xl mx-auto drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
             Our mission is to protect, maintain, and enhance your technology infrastructure so you can focus on what truly matters — your business growth.
           </p>
 
-          <p className="font-montserrat text-[#1A1A1A] text-base md:text-lg max-w-3xl mx-auto drop-shadow-[0_1px_2px_rgba(255,255,255,0.2)]">
+          <p className="font-montserrat text-it-silver text-base md:text-lg max-w-3xl mx-auto drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
             We deliver innovative, reliable, and efficient IT support for businesses of all sizes.
           </p>
         </div>
