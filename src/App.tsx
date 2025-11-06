@@ -79,10 +79,6 @@ function App() {
         </div>
       </div>
 
-      <div className="w-full bg-gradient-to-b from-it-dark to-it-silver/20 py-20 section-fade">
-        <div className="h-px bg-gradient-to-r from-it-red via-it-blue to-it-red shadow-[0_0_10px_rgba(199,0,57,0.5)]"></div>
-      </div>
-
       <div id="about" className="w-full bg-cover bg-center bg-no-repeat py-20 px-6 relative section-fade" style={{backgroundImage: 'url(/src/img/about-bg.jpg)'}}>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A]/60 via-[#0A0A0A]/60 to-[#0A0A0A]/50"></div>
         <div className="absolute inset-0 overflow-hidden">
@@ -90,9 +86,11 @@ function App() {
           <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-it-red/10 rounded-full blur-3xl"></div>
         </div>
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-white mb-12 tracking-tight uppercase drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]">
+          <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight uppercase drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]">
             WHO WE ARE
           </h2>
+
+          <div className="w-[120px] h-0.5 mx-auto mb-12 bg-gradient-to-r from-[#007BFF] to-[#C70039] opacity-60"></div>
 
           <p className="font-montserrat text-white text-lg md:text-xl mb-6 max-w-3xl mx-auto drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
             Our mission is to protect, maintain, and enhance your technology infrastructure so you can focus on what truly matters — your business growth.
