@@ -310,24 +310,24 @@ function App() {
 
 function ServiceCard({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
   return (
-    <div className="group relative bg-white/98 backdrop-blur-sm border border-white/70 rounded-xl p-8 transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.2)] hover:shadow-[0_20px_50px_rgba(0,123,255,0.3)] hover:border-it-blue/60 overflow-hidden transform hover:-translate-y-1">
-      <div className="absolute inset-0 bg-gradient-to-br from-it-blue/0 via-transparent to-it-blue/0 group-hover:from-it-blue/8 group-hover:to-it-blue/8 transition-all duration-300"></div>
+    <div className="group relative bg-[#0A0A0A]/95 backdrop-blur-sm border border-it-blue/40 rounded-xl p-8 transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.4)] hover:shadow-[0_20px_50px_rgba(0,123,255,0.5)] hover:border-it-blue/80 overflow-hidden transform hover:-translate-y-1">
+      <div className="absolute inset-0 bg-gradient-to-br from-it-blue/0 via-transparent to-it-blue/0 group-hover:from-it-blue/15 group-hover:to-it-red/10 transition-all duration-300"></div>
 
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-it-blue/50 to-it-blue/20"></div>
-        <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-it-blue/20 to-it-blue/50"></div>
+        <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-it-blue/60 to-it-red/40"></div>
+        <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-it-red/40 to-it-blue/60"></div>
       </div>
 
       <div className="relative z-10">
-        <div className="mb-6 inline-flex items-center justify-center p-3 bg-gradient-to-br from-it-blue/20 to-it-blue/10 rounded-lg group-hover:shadow-[0_0_20px_rgba(0,123,255,0.5)] transition-all duration-300 text-it-blue group-hover:text-it-blue drop-shadow-[0_0_10px_rgba(0,123,255,0.3)]">
+        <div className="mb-6 inline-flex items-center justify-center p-3 bg-gradient-to-br from-it-blue/30 to-it-red/20 rounded-lg group-hover:shadow-[0_0_25px_rgba(0,123,255,0.6)] transition-all duration-300 text-it-blue group-hover:text-it-red drop-shadow-[0_0_15px_rgba(0,123,255,0.4)]">
           {icon}
         </div>
 
-        <h3 className="font-montserrat text-xl font-bold text-[#0A0A0A] mb-3 group-hover:text-it-blue transition-colors duration-300 tracking-tight uppercase">
+        <h3 className="font-montserrat text-xl font-bold text-white mb-3 group-hover:text-it-blue transition-colors duration-300 tracking-tight uppercase">
           {title}
         </h3>
 
-        <p className="font-montserrat text-gray-600 group-hover:text-gray-700 transition-colors duration-300 leading-relaxed font-medium">
+        <p className="font-montserrat text-white opacity-100 group-hover:text-it-silver transition-colors duration-300 leading-relaxed font-medium">
           {description}
         </p>
       </div>
