@@ -92,11 +92,11 @@ function App() {
         </div>
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-          <div className="mb-8 flex justify-center">
+          <div className="mb-6 flex justify-center">
             <img
               src={logoHero}
               alt="IT Legends Hero Logo"
-              className="w-[260px] h-[62px] md:w-[360px] md:h-[86px] object-contain drop-shadow-[0_0_30px_rgba(0,123,255,0.25)]"
+              className="w-[320px] h-[76px] md:w-[440px] md:h-[104px] object-contain drop-shadow-[0_0_30px_rgba(0,123,255,0.25)]"
             />
           </div>
 
